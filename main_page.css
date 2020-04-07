@@ -1,0 +1,41 @@
+body{
+    background-image: url('tlo.png');
+	margin: 0;
+	padding: 0;
+}
+.topnav {
+	margin: 0;
+	background-color: #696969;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Century Gothic";
+	font-size: 20px;
+	background-color: #696969;
+	
+}
+.topnav a:hover {
+	background-color: #D3D3D3;
+	color: black;
+}
+.topnav a.active {
+  background-color: #242020;
+  color: white;
+}
+.divgl{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px; 
+	padding: 25px;
+	text-align: center;
+	background-image: url("white_backgorud.png");
+	font-size: 30px;
+}
