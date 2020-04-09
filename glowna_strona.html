@@ -9,13 +9,25 @@
         <link rel="stylesheet" href="main_page.css">
     </head>
     <body>
-        <div class="topnav">
-            <a href="glowna_strona.html" class="active"> Strona główna</a>
+        <div id="navbar">
+            <a href="javascript:void(0)" href="glowna_strona.html" class="active">Strona główna</a>
         </div>
             <div class="divgl">
             
             </div>
 		
-        <script src="" async defer></script>
+        <script>
+            window.onscroll = function() {myFunction()};
+
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                    function myFunction() {
+                        if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky") }                     
+                        else {
+                        navbar.classList.remove("sticky");}
+                    }
+        </script>
     </body>
 </html>

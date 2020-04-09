@@ -2,33 +2,42 @@ body{
     background-image: url('tlo.png');
 	margin: 0;
 	padding: 0;
+	font-family: "Century Gothic";
 }
-.topnav {
-	margin: 0;
-	background-color: #696969;
+#navbar {
 	overflow: hidden;
+	background-color: #333;
 }
 
-.topnav a {
+#navbar a {
 	float: left;
 	display: block;
-	color: white;
+	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-family: "Century Gothic";
-	font-size: 20px;
-	background-color: #696969;
-	
+	font-size: 17px;
 }
-.topnav a:hover {
-	background-color: #D3D3D3;
+
+#navbar a:hover {
+	background-color: #ddd;
 	color: black;
 }
-.topnav a.active {
-  background-color: #242020;
-  color: white;
+
+#navbar a.active {
+	background-color: #696969;
+	color: white;
 }
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
+}
+
 .divgl{
     max-width: 1250px;
     margin-left: auto;
