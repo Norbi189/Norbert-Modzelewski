@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
+        <title>KLOC EATS</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
@@ -9,7 +10,30 @@
         <link rel="stylesheet" href="">
     </head>
     <body>
-        TEST JP II GMD HALO sajfnsaijnfsanfs8uaj
-        <script src="" async defer></script>
+        <header>
+            <div class="main">
+                 <ul>
+                      <li class="active"><a href="stronaglowna.html">Strona główna</a></li>
+                      <li><a href="menu.html">Menu</a></li>				 
+                      <li><a href="okazje.html">Okazje specjalne</a></li>
+                      <li><a href="kontakt.html">Kontakt</a></li>
+                 </ul>
+            </div>
+            <div class="button">
+                <a href="menu.html" class="btn">MENU</a>
+        </header>
+        <script src="" async defer>
+            window.onscroll = function() {myFunction()};
+
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                    function myFunction() {
+                        if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky") }                     
+                        else {
+                        navbar.classList.remove("sticky");}
+                    }
+        </script>``
     </body>
 </html>
