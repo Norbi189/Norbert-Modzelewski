@@ -4,6 +4,15 @@ body{
 	padding: 0;
 	font-family: "Century Gothic";
 }
+.footer{
+	font-weight: 700;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color:#333;
+	font-size: 100%;
+	color: white;
+	text-align: center;
+	}
 #navbar {
 	overflow: hidden;
 	background-color: #333;
@@ -55,26 +64,17 @@ body{
 	background-image: url("white_backgorud.png");
 	font-size: 30px; 
 	overflow: hidden;
-	float: center;
-	text-align: center;
 }
-
-.divcennik_2{
-    max-width: 800px;
-    margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-size: 30px; 
-	overflow: hidden;
-	margin-bottom: 10px;
-}
-
-.divmenu img{
+#hotrod{
 	margin-left: 20px;
 	width: 150px;
 	height: 150px;
 	float: left;
 }
+#fuzzybrain{
+	float: left;
+}
+
 .divcennik #nrltxt{
 	text-align: center;
 	font-size: 50px;
