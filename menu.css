@@ -1,5 +1,6 @@
 body{
-    background-image: url('tlo.png');
+	background-image: url('tlo.png');
+	background-repeat: repeat;
 	margin: 0;
 	padding: 0;
 	font-family: "Century Gothic";
@@ -62,6 +63,7 @@ body{
 	margin-top: 50px;
 	padding: 25px;
 	background-image: url("white_backgorud.png");
+	background-repeat: repeat;
 	font-size: 30px; 
 	overflow: hidden;
 }
@@ -69,10 +71,17 @@ body{
 	margin-left: 20px;
 	width: 150px;
 	height: 150px;
-	float: left;
 }
 #fuzzybrain{
-	float: left;
+	text-align: center;
+	padding: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 45px;
+}
+#menu_text_i_zdjecie{
+	width: auto;
+	overflow: hidden;
 }
 
 .divcennik #nrltxt{
@@ -86,4 +95,19 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 40px;
+}
+
+#divlogo{
+	float: left;
+}
+#tekstwlogo {
+	text-align: center;
+	padding: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 45px;
+}
+#logo{
+	width: 100px;
+	height: 100px;
 }
