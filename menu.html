@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>KLOC EATS - Menu</title>
+        <link rel="stylesheet" href="menu.css">
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="glowna_strona.html"><img src="logo_photos/Kloc_Eats_Logo.png"></a>
+            <a href="glowna_strona.html" id="text">Strona główna</a>
+            <a href="menu.html" id="text" class="active" >Menu</a>
+        </div>
+            <div class="divmenu">
+            <a><img id="hotrod" src="logo_photos/kloceatslogo_photoshop_menu.png"></a>
+            <a id="fuzzybrain"> CENNINK I MENU </a>
+        </div>
+        
+        <div class="footer">
+            <a>  ©️ 2020 - 2020 <a><a href="glowna_strona.html">KLOC EATS</a>
+            <a> created by<a> <a target="_blank">twój stary</a>
+        </div>
+        <script>
+            window.onscroll = function() {myFunction()};
+
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+
+                    function myFunction() {
+                        if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky") }                     
+                        else {
+                        navbar.classList.remove("sticky");}
+                    }
+        </script>
+    </body>
+</html>
