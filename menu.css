@@ -18,6 +18,10 @@ body{
 	overflow: hidden;
 	background-color: #333;
 }
+#navbar #black_cock_button{
+	float: right;
+	margin-right: 10px;
+}
 #navbar img {
 	width: 45px;
 	height: 45px;
@@ -55,17 +59,29 @@ body{
 	padding-top: 60px;
 }
 
-.divmenu{
-	max-width: 1250px;
-	height: 900px; 
+#divgl{
+    max-width: 1250px;
     margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
+    margin-right: auto;
+    height: 900px; 
 	padding: 25px;
-	background-image: url("white_backgorud.png");
-	background-repeat: repeat;
-	overflow: hidden;
+	text-align: center;
+	background-image: url("dark_theme_background.png");
+	color: white;
+	font-size: 30px;
 }
+#white_mode {
+	max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px; 
+	padding: 25px;
+	text-align: center;
+	background-image: url("white_background.png");
+	color: black;
+	font-size: 30px;
+  }
+
 #hotrod{
 	margin-left: 20px;
 	width: 150px;
@@ -134,6 +150,7 @@ table{
 	font-size: 30px;
 	position: absolute;
 	font-weight: bold;
+	color: white;
 }
 .container img{
 	width: 128px;

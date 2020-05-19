@@ -13,32 +13,45 @@
 
         <div id="navbar">
             <a href="glowna_strona.html"><img src="logo_photos/Kloc_Eats_Logo.png"></a>
-            <a href="glowna_strona.html" id="text" >Strona główna</a>
+            <a href="glowna_strona.html" id="text">Strona główna</a>
             <a href="menu.html" id="text" >Menu</a>
             <a href="okazje.html" id="text" class="active">Okazje specjalne</a>
             <a href="kontakt.html" id="text">Kontakt</a>
+            <a id="black_cock_button"><img id="bright_theme" src="mode_switch1.png" onclick= "white_theme()"></a>
         </div>
-            <div class="divgl">
-                <br>
-                cock and balls and dick as well yeah
-                cum
-            </div>
+        <div id="divgl">
+            <br>
+            cock and ball and dick as well yeah cum
+        </div>
         <div class="footer">
-                <a>  ©️ 2020 - 2020 <a><a href="glowna_strona.html">KLOC EATS</a>
-                <a> created by<a> <a target="_blank">twój stary</a>
-            </div>
-        <script>
-            window.onscroll = function() {myFunction()};
-
+            <a>  ©️ 2020 - 2020 <a><a href="glowna_strona.html">KLOC EATS</a>
+            <a> created by<a> <a target="_blank">twój stary</a>
+        </div>
+            <script>
+                window.onscroll = function() {StickyNavbar()};
                 var navbar = document.getElementById("navbar");
                 var sticky = navbar.offsetTop;
-
-                    function myFunction() {
-                        if (window.pageYOffset >= sticky) {
+                function StickyNavbar() {
+                     if (window.pageYOffset >= sticky) {
                         navbar.classList.add("sticky") }                     
                         else {
                         navbar.classList.remove("sticky");}
-                    }
+                            }
+                
+                function white_theme() {
+                    var img = document.getElementById('bright_theme').src;
+                    if (img.indexOf('mode_switch2.png')!=-1) {
+                        document.getElementById('bright_theme').src = 'mode_switch1.png';
+                        document.getElementById('white_mode').id = "divgl";
+                        }
+                    else{
+                        document.getElementById('bright_theme').src  ='mode_switch2.png';
+                        document.getElementById('divgl').id = "white_mode";
+                        }    
+                }
+        
+            </script>
+    
         </script>
     </body>
 </html>

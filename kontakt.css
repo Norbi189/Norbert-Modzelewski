@@ -27,6 +27,10 @@ body{
 #navbar #text{
 	padding: 14px 16px;
 }
+#navbar #black_cock_button{
+	float: right;
+	margin-right: 10px;
+}
 #navbar a {
 	float: left;
 	display: block;
@@ -55,15 +59,25 @@ body{
 	padding-top: 60px;
 }
 
-.divgl{
+#divgl{
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
-	height: 1100px; 
+    height: 1100px; 
 	padding: 25px;
 	text-align: center;
-	background-image: url("white_backgorud.png");
+	background-image: url("dark_theme_background.png");
+	color: white;
 	font-size: 30px;
-	background-repeat: repeat;
-
+}
+#white_mode {
+	max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px; 
+	padding: 25px;
+	text-align: center;
+	background-image: url("white_background.png");
+	color: black;
+	font-size: 30px;
 }
