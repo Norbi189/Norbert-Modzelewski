@@ -119,11 +119,30 @@ table{
 	position: relative;
 	align-items: center;
 	overflow: hidden;
+	width: 320px;
+	height: 320px;
+}
+.container a{
+	margin-left: 10px;
+	font-size: 20px;
+	color: #ad0000;
+	position: absolute;
+	font-weight: bold;
+}
+.container h2{
+	margin-left: 10px;
+	font-size: 30px;
+	position: absolute;
+	font-weight: bold;
+}
+.container img{
+	width: 128px;
+	height: 128px;
 }
 .container .card{
 	position: relative;
 	width: 320px;
-	height: 450;
+	height: 320px;
 	background: #666666;
 	border-radius: 20px;
 	overflow: hidden;
