@@ -150,7 +150,8 @@ body{
 		width: 40%;
 	}
 	#divgl{
-		height: 1400px; 
+		height: 1400px;  
+		
 	}
 }
 @media screen and (max-width:800px){
