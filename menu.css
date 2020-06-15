@@ -155,32 +155,11 @@ body{
 	}
 }
 .guzik{
-	border: 1px solid #333333;
-	background: none;
+	border: 1px solid white;
+	color: white;
+	background: rgb(39, 39, 39);
 	padding: 10px 20px;
 	font-size: 20px;
 	cursor: pointer;
 	margin:  10px;
 }
-.guzik_chuj{
-	color: #333333;
-}
-.guzik_chuj:hover{
-	color: #333333;
-}
-.guzik::before{
-	content: "";
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: #333333;
-	z-index: -1;
-	transition: 0.8s;
-}
-.guzik_chuj::before{
-	bottom: 0;
-	border-radius: 50% 50% 0 0;
-	height: 180%;
-}
-
