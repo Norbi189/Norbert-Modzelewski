@@ -63,7 +63,7 @@ body{
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
-    height: 900px; 
+    height: 1250px; 
 	padding: 25px;
 	text-align: center;
 	background-image: url("dark_theme_background.png");
@@ -150,7 +150,7 @@ body{
 		width: 40%;
 	}
 	#divgl{
-		height: 1400px;  
+		height: 2000px;  
 		
 	}
 }
@@ -159,7 +159,7 @@ body{
 		width: 90%;
 	}
 	#divgl{
-		height: 2600px; 
+		height: 3400px; 
 	}
 }
 .guzik{
