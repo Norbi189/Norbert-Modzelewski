@@ -63,7 +63,7 @@ body{
     max-width: 1250px;
     margin-left: auto;
     margin-right: auto;
-    height: 1250px; 
+    height: 1350px; 
 	padding: 25px;
 	text-align: center;
 	background-image: url("dark_theme_background.png");
@@ -84,8 +84,21 @@ body{
 
 #hotrod{
 	margin-left: 20px;
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
+}
+#big_chungus{
+	width: 100px;
+	height: 100px;
+}
+#bigger_chungus{
+	border: 1px solid white;
+	color: white;
+	background: rgb(39, 39, 39);
+	
+	font-size: 20px;
+	cursor: pointer;
+	margin:  10px;
 }
 #fuzzybrain{
 	text-align: center;
@@ -150,7 +163,7 @@ body{
 		width: 40%;
 	}
 	#divgl{
-		height: 2000px;  
+		height: 2100px;  
 		
 	}
 }
@@ -159,7 +172,7 @@ body{
 		width: 90%;
 	}
 	#divgl{
-		height: 3400px; 
+		height: 3500px; 
 	}
 }
 .guzik{
