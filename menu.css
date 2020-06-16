@@ -138,7 +138,7 @@ body{
 }
 .dayglow{
 	width: 29%;
-	height: 320px;
+	height: 350px;
 	background: #666666;
 	margin: 20px;
 	box-sizing: border-box;
@@ -175,6 +175,9 @@ body{
 	#fuzzybrain{
 		margin-top: 50px;
 	}
+	#prawa_kolumna, #prawa_kolumna_white{
+		margin-top: 70px;
+	}
 }
 /*@media (max-width: 768px){
 	#prawa_kolumna, #prawa_kolumna_white {
@@ -210,7 +213,7 @@ body{
 }
 #content_chuj {
     max-width: 1450px;
-    margin: 0 auto 20px;
+    margin: 0 auto 0px;
 	overflow: hidden;
 	color: white;
 } 
@@ -251,4 +254,7 @@ body{
 	margin-right: auto;
 	font-size: 30px;
 	color: black;
+}
+#mniejszy_text{
+	font-size: 20px;
 }
