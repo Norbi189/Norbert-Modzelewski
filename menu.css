@@ -1,6 +1,7 @@
 body{
 	background-image: url('tlo.png');
-	background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
 	margin: 0;
 	padding: 0;
 	font-family: "Century Gothic";
@@ -59,33 +60,10 @@ body{
 	padding-top: 60px;
 }
 
-#divgl{
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 2450px; 
-	padding: 25px;
-	text-align: center;
-	background-image: url("dark_theme_background.png");
-	color: white;
-	font-size: 30px;
-}
-#white_mode {
-	max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 900px; 
-	padding: 25px;
-	text-align: center;
-	background-image: url("white_background.png");
-	color: black;
-	font-size: 30px;
-  }
-
 #hotrod{
 	margin-left: 20px;
-	width: 250px;
-	height: 250px;
+	width: 150px;
+	height: 150px;
 }
 
 #big_chungus{
@@ -159,14 +137,13 @@ body{
 	height: 100px;
 }
 .dayglow{
-	width: 30%;
+	width: 29%;
 	height: 320px;
 	background: #666666;
 	margin: 20px;
 	box-sizing: border-box;
 	padding-top: 25px;
 	color: white;
-
 }
 .pudlo{
 	width: 100%;
@@ -177,23 +154,41 @@ body{
 	flex-flow: wrap;
 }
 
-@media screen and (max-width:1300px){
+
+@media screen and (max-width:1264px){
 	.dayglow{
 		width: 40%;
 	}
-	#divgl{
-		height: 3500px;  
+}
+@media screen and (max-width:840px){
+	.dayglow{
+		width: 60%;
+	}
+
+}
+@media screen and (max-width:618px){
+	#hotrod{
+		width: 0px;
+		height: 0px;
 		
 	}
-}
-@media screen and (max-width:800px){
-	.dayglow{
-		width: 90%;
-	}
-	#divgl{
-		height: 6800px; 
+	#fuzzybrain{
+		margin-top: 50px;
 	}
 }
+/*@media (max-width: 768px){
+	#prawa_kolumna, #prawa_kolumna_white {
+	    width: 96%;
+	    float: right;
+	    padding: 2%;
+		margin-bottom: 20px;
+	}
+	#glowna_kolomna, #glowna_kolomna_white {
+	    width: 96%;
+    	float: left;
+	    padding: 2%;
+	}
+} */
 .guzik{
 	border: 1px solid white;
 	color: white;
@@ -212,4 +207,48 @@ body{
 	font-size: 20px;
 	cursor: pointer;
 	margin:  10px;
+}
+#content_chuj {
+    max-width: 1450px;
+    margin: 0 auto 20px;
+	overflow: hidden;
+	color: white;
+} 
+#prawa_kolumna{
+	width: 21%;
+    float: right;
+    background-image: url("dark_theme_background.png");
+	padding: 1%;
+	text-align: center;
+}
+#glowna_kolomna{
+	width: 74%;
+    min-height: 430px;
+    float: left;
+    background-image: url("dark_theme_background.png");
+	padding: 1%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+}
+#prawa_kolumna_white{
+	width: 21%;
+    float: right;
+    background-image: url("white_background.png");
+	padding: 1%;
+	text-align: center;
+	color: black;
+}
+#glowna_kolomna_white{
+	width: 74%;
+    min-height: 430px;
+    float: left;
+    background-image: url("white_background.png");
+	padding: 1%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	color: black;
 }
