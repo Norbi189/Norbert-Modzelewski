@@ -23,7 +23,11 @@
                 </div>
                 <div id="fuzzybrain">
                     <span >CENNINK I MENU</span><br>
-                    <a><button id= "bigger_chungus"><img id="big_chungus" src="wozek.png"></button> </a>
+                    <a id="bigger_chungus"><button id= "big_chungus" onclick="koszyk()"><img src="wozek.png"></button> </a>
+                    <div id="popup">
+                        <button id= "big_chungus" class="xchuj" onclick="koszyk()">X</button>
+                        <a>Twój koszyk</a>
+                    </div>
                 </div>
                 <div id="divlogo">
                     
@@ -110,6 +114,10 @@
                     document.getElementById('bright_theme').src  ='mode_switch2.png';
                     document.getElementById('divgl').id = "white_mode";
                     }    
+            }
+            function koszyk(){
+                var popup = document.getElementById('popup')
+                popup.classList.toggle('active')
             }
      
      

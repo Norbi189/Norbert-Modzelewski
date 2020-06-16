@@ -87,18 +87,37 @@ body{
 	width: 250px;
 	height: 250px;
 }
+
 #big_chungus{
-	width: 100px;
-	height: 100px;
-}
-#bigger_chungus{
 	border: 1px solid white;
 	color: white;
 	background: rgb(39, 39, 39);
-	
 	font-size: 20px;
 	cursor: pointer;
 	margin:  10px;
+}
+#big_chungus img{
+	width: 100px;
+	height: 100px;
+}
+#popup{
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	padding: 50px;
+	box-shadow: 0 5px 30px rgb(0, 0, 0,.30);
+	background: #333;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+#popup.active{
+	top: 50%;
+	visibility: visible;
+	opacity: 1;
+	transition: 0.5s;
 }
 #fuzzybrain{
 	text-align: center;
@@ -176,6 +195,16 @@ body{
 	}
 }
 .guzik{
+	border: 1px solid white;
+	color: white;
+	background: rgb(39, 39, 39);
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	margin:  10px;
+}
+.xchuj{
+	float: right;
 	border: 1px solid white;
 	color: white;
 	background: rgb(39, 39, 39);
