@@ -66,37 +66,6 @@ body{
 	height: 150px;
 }
 
-#big_chungus{
-	border: 1px solid white;
-	color: white;
-	background: rgb(39, 39, 39);
-	font-size: 20px;
-	cursor: pointer;
-	margin:  10px;
-}
-#big_chungus img{
-	width: 100px;
-	height: 100px;
-}
-#popup{
-	position: fixed;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	width: 600px;
-	padding: 50px;
-	box-shadow: 0 5px 30px rgb(0, 0, 0,.30);
-	background: #333;
-	visibility: hidden;
-	opacity: 0;
-	transition: 0.5s;
-}
-#popup.active{
-	top: 50%;
-	visibility: visible;
-	opacity: 1;
-	transition: 0.5s;
-}
 #fuzzybrain{
 	text-align: center;
 	padding: 50px;
@@ -192,25 +161,7 @@ body{
 	    padding: 2%;
 	}
 } */
-.guzik{
-	border: 1px solid white;
-	color: white;
-	background: rgb(39, 39, 39);
-	padding: 10px 20px;
-	font-size: 20px;
-	cursor: pointer;
-	margin:  10px;
-}
-.xchuj{
-	float: right;
-	border: 1px solid white;
-	color: white;
-	background: rgb(39, 39, 39);
-	padding: 10px 20px;
-	font-size: 20px;
-	cursor: pointer;
-	margin:  10px;
-}
+
 #content_chuj {
     max-width: 1450px;
     margin: 0 auto 0px;
@@ -257,4 +208,39 @@ body{
 }
 #mniejszy_text{
 	font-size: 20px;
+}
+.cart-item {
+    width: 45%;
+}
+.cart-price {
+    width: 20%;
+}
+.cart-row {
+    display: flex;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-quantity {
+    width: 35%;
+}
+.cart-quantity-input {
+    width: 35%;
+}
+.btn-danger{
+	margin-left: 7px;
+}
+.shop-item-button{
+	border: 1px solid white;
+	color: white;
+	background: rgb(39, 39, 39);
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	margin:  10px;
 }
