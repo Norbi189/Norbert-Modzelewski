@@ -19,7 +19,22 @@
         <div id="content_chuj">
             <div>
                 <div id="prawa_kolumna">
-                    <h3>Twój Koszyk</h3>
+                    <section>
+                        <br><h2>Twój Koszyk</h3>
+                        <div class="cart-row">
+                            <span class="cart-item cart-column">Produkt</span>
+                            <span class="cart-price cart-column">Cena</span>
+                            <span class="cart-quantity cart-column">Ilość</span>
+                        </div>
+                        <div class="cart-items">
+                        </div>
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Łącznie: </strong>
+                            <span class="cart-total-price">0zł</span>
+                        </div>
+                        <button class="btn btn-primary btn-purchase" type="button">ZAMÓW</button>
+                    </section>
+                    
                 </div>
                 <div id="glowna_kolomna">
                 <div id="menu_text_i_zdjecie">
@@ -36,122 +51,122 @@
                 </div>
                 <div class="pudlo">
                     <div class="dayglow">
-                        <img src="food_photos/apple128.png"><br>
-                        <a>Jabłko</a><br>
-                        <a id="mniejszy_text">Cena: 1zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/apple128.png"><br>
+                        <span class="shop-item-title">Jabłko</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">1zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/baked_potato128.png"><br>
-                        <a>Upieczony ziemniak</a><br>
-                        <a id="mniejszy_text">Cena: 3zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/baked_potato128.png"><br>
+                        <span class="shop-item-title">Upieczony ziemniak</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">1zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/bread128.png"><br>
-                        <a>Chleb</a><br>
-                        <a id="mniejszy_text">Cena: 3zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
-                    </div>
-
-
-                    <div class="dayglow">
-                        <img src="food_photos/cooked_beef128.png"><br>
-                        <a>Wołowinka mmm</a><br>
-                        <a id="mniejszy_text">Cena: 5zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
-                    </div>
-                    <div class="dayglow">
-                        <img src="food_photos/cake128.png"><br>
-                        <a>Kremówka</a><br>
-                        <a id="mniejszy_text">Cena: 10zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
-                    </div>
-                    <div class="dayglow">
-                        <img src="food_photos/cooked_porkchop128.png"><br>
-                        <a>Porkchop</a><br>
-                        <a id="mniejszy_text">Cena: 5zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/bread128.png"><br>
+                        <span class="shop-item-title">Chleb</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">3zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
 
 
                     <div class="dayglow">
-                        <img src="food_photos/melon_slice128.png"><br>
-                        <a>me lon</a><br>
-                        <a id="mniejszy_text">Cena: 2zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/cooked_beef128.png"><br>
+                        <span class="shop-item-title">Wołowina</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">5zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/milk_bucket128.png"><br>
-                        <a>Bucket of CUM</a><br>
-                        <a id="mniejszy_text">Cena: 6zł/wiadro</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/cake128.png"><br>
+                        <span class="shop-item-title">Kremówka</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">10zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/beetroot_soup128.png"><br>
-                        <a>Barszczyk</a><br>
-                        <a id="mniejszy_text">Cena: 6zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/cooked_porkchop128.png"><br>
+                        <span class="shop-item-title">Porkchop</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">5zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
 
 
                     <div class="dayglow">
-                        <img src="food_photos/cookie128.png"><br>
-                        <a>Ciacho</a><br>
-                        <a id="mniejszy_text">Cena: 420zł/1g</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/melon_slice128.png"><br>
+                        <span class="shop-item-title">Melon</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">2zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/cooked_chicken128.png"><br>
-                        <a>Pieczony Kurczak</a><br>
-                        <a id="mniejszy_text">Cena: 4zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/milk_bucket128.png"><br>
+                        <span class="shop-item-title">Bucket of CUM</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">6zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/cooked_mutton128.png"><br>
-                        <a>Pieczona Baranina</a><br>
-                        <a id="mniejszy_text">Cena: 5zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/beetroot_soup128.png"><br>
+                        <span class="shop-item-title">Barszczyk</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">6zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
+                    </div>
+
+
+                    <div class="dayglow">
+                        <img class="shop-item-image" src="food_photos/cookie128.png"><br>
+                        <span class="shop-item-title">Ciasteczko</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">420zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
+                    </div>
+                    <div class="dayglow">
+                        <img class="shop-item-image" src="food_photos/cooked_chicken128.png"><br>
+                        <span class="shop-item-title">Kurczak</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">4zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
+                    </div>
+                    <div class="dayglow">
+                        <img class="shop-item-image" src="food_photos/cooked_mutton128.png"><br>
+                        <span class="shop-item-title">Barania</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">5zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                 
 
                     <div class="dayglow">
-                        <img src="food_photos/cooked_rabbit128.png"><br>
-                        <a>Pieczony Królik</a><br>
-                        <a id="mniejszy_text">Cena: 4zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/cooked_rabbit128.png"><br>
+                        <span class="shop-item-title">Królik</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">4zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/tropical_fish128.png"><br>
-                        <a>Tropikalna Rybcia</a><br>
-                        <a id="mniejszy_text">Cena: 3zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/tropical_fish128.png"><br>
+                        <span class="shop-item-title">Tropikalna Rybcia</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">3zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
-                   <div class="dayglow">
-                        <img src="food_photos/rabbit_stew128.png"><br>
-                        <a>Gulasz z królika</a><br>
-                        <a id="mniejszy_text">Cena: 6zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                    <div class="dayglow">
+                        <img class="shop-item-image" src="food_photos/rabbit_stew128.png"><br>
+                        <span class="shop-item-title">Gulasz z królika</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">6zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
 
                 
                     <div class="dayglow">
-                        <img src="food_photos/water_bucket128.png"><br>
-                        <a>Widarko wody</a><br>
-                        <a id="mniejszy_text">Cena: 2zł/wiadro</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/water_bucket128.png"><br>
+                        <span class="shop-item-title">Woda</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">2zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/chorus_fruit128.png"><br>
-                        <a>Owoc refrenu</a><br>
-                        <a id="mniejszy_text">Cena: 7zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/chorus_fruit128.png"><br>
+                        <span class="shop-item-title">Owoc refrenu</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">7zł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                     <div class="dayglow">
-                        <img src="food_photos/golden_apple128.png"><br>
-                        <a>Koxik</a><br>
-                        <a id="mniejszy_text">Cena: 50zł/szt</a><br>
-                        <button class="guzik">Dodaj do koszyka</button>
+                        <img class="shop-item-image" src="food_photos/golden_apple128.png"><br>
+                        <span class="shop-item-title">Koxik</span><br>
+                        <a id="mniejszy_text">Cena: <span id="mniejszy_text" class="shop-item-price">50ł</span><a id="mniejszy_text">/szt</a></a><br>
+                        <button class="shop-item-button" type="button">Dodaj do koszyka</button>
                     </div>
                 </div>
             </div>
@@ -188,10 +203,110 @@
                     document.getElementById('prawa_kolumna').id = "prawa_kolumna_white";
                     }    
             }
-            //function koszyk(){
-            //    var popup = document.getElementById('popup')
-            //    popup.classList.toggle('active')
-            //}
+//ten kod zajebałem w 100% sory michael ale musiałem
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready)
+} else {
+    ready()
+}
+
+function ready() {
+    var removeCartItemButtons = document.getElementsByClassName('btn-danger')
+    for (var i = 0; i < removeCartItemButtons.length; i++) {
+        var button = removeCartItemButtons[i]
+        button.addEventListener('click', removeCartItem)
+    }
+
+    var quantityInputs = document.getElementsByClassName('cart-quantity-input')
+    for (var i = 0; i < quantityInputs.length; i++) {
+        var input = quantityInputs[i]
+        input.addEventListener('change', quantityChanged)
+    }
+
+    var addToCartButtons = document.getElementsByClassName('shop-item-button')
+    for (var i = 0; i < addToCartButtons.length; i++) {
+        var button = addToCartButtons[i]
+        button.addEventListener('click', addToCartClicked)
+    }
+
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+}
+
+function purchaseClicked() {
+    alert('Dziękujemy za zakup')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
+}
+
+function removeCartItem(event) {
+    var buttonClicked = event.target
+    buttonClicked.parentElement.parentElement.remove()
+    updateCartTotal()
+}
+
+function quantityChanged(event) {
+    var input = event.target
+    if (isNaN(input.value) || input.value <= 0) {
+        input.value = 1
+    }
+    updateCartTotal()
+}
+
+function addToCartClicked(event) {
+    var button = event.target
+    var shopItem = button.parentElement
+    var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
+    var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
+    var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
+    addItemToCart(title, price, imageSrc)
+    updateCartTotal()
+}
+
+function addItemToCart(title, price, imageSrc) {
+    var cartRow = document.createElement('div')
+    cartRow.classList.add('cart-row')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
+    for (var i = 0; i < cartItemNames.length; i++) {
+        if (cartItemNames[i].innerText == title) {
+            alert('Ten przedmiot już najduje się w koszyku')
+            return
+        }
+    }
+    var cartRowContents = `
+        <div class="cart-item cart-column">
+            <img class="cart-item-image" src="${imageSrc}" width="30" height="30">
+            <span class="cart-item-title">${title}</span>
+        </div>
+        <span class="cart-price cart-column">${price}</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1">
+            <button class="btn btn-danger" type="button">X</button>
+        </div>`
+    cartRow.innerHTML = cartRowContents
+    cartItems.append(cartRow)
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
+    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+}
+
+function updateCartTotal() {
+    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
+    var cartRows = cartItemContainer.getElementsByClassName('cart-row')
+    var total = 0
+    for (var i = 0; i < cartRows.length; i++) {
+        var cartRow = cartRows[i]
+        var priceElement = cartRow.getElementsByClassName('cart-price')[0]
+        var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
+        var price = parseFloat(priceElement.innerText.replace('zł', ''))
+        var quantity = quantityElement.value
+        total = total + (price * quantity)
+    }
+    total = Math.round(total * 100) / 100
+    document.getElementsByClassName('cart-total-price')[0].innerText = total + 'zł'
+}
      
      
         </script>
