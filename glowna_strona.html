@@ -19,10 +19,33 @@
             <br><br> <!--br jest bo trzeba niżej pisać bo coś navbar się jebie-->
             <div id="ya_like_jazz"> 
                 <a>Nasza strona zajmuję się dostarczaniem jedzenia z słynnej gry <img src="logo_photos/mc_logo.png"></a><br>
-                <a>W menu każdy może znaleźć coś dla siebie</a><br>
-                <a>Od kremówek po bucket of cum</a><br>
-                <a>Raz w tygodniu pojawiają się promocje<br> w których można kupić dane produkty taniej</a><br>
+                <a>KLOC EATS planuje na rozszerzeniu menu poprzez dodanie jedzenia z innych gier. </a><br>
+                <a>W menu każdy może znaleźć coś dla siebie.</a><br>
+                <a>Od kremówek po bucket of cum.</a><br>
+                <a>Raz w tygodniu pojawiają się promocje<br> w których można kupić dane produkty taniej.</a><br><br>
+                <a>Oto nasi zadowoleni klienci:</a><br>
             </div>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="customers/happy_customer1.png">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="customers/happy_customer2.png">
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="customers/happy_customer3.png">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
         </div>
         <div class="footer">
                 <a>  ©️ 2020 - 2020 <a><a href="glowna_strona.html">KLOC EATS</a>
@@ -50,6 +73,32 @@
                     document.getElementById('divgl').id = "white_mode";
                     }    
             }
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
     
         </script>
     </body>
